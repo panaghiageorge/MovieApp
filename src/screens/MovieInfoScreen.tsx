@@ -9,7 +9,6 @@ let width = dimensions.width;
 const MovieInfoScreen: React.FC = ({route}) => {
     const { item } = route.params;
     const navigation = useNavigation();
-
     const renderHeader = () => {
         return (
             <View>

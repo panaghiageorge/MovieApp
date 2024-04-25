@@ -1,17 +1,12 @@
-/* @flow */
-
 import {combineReducers, Reducer} from 'redux';
 
 import type {ReduxAction} from './types/ReduxAction';
 
-
 import {
   requestSlice,
-
 } from './slices';
 
 export type RootStore = {
-
   request: typeof requestSlice.reducer;
 };
 

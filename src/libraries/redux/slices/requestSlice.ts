@@ -17,6 +17,5 @@ export const requestSlice: any = createSlice({
   },
 });
 
-
 export const setPopularMovies = requestSlice.actions.setPopularMovies;
 
